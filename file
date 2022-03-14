@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(){
+
+char scritto[4]={'T', 'P', 'S', 'I', 'T'}
+int q=0;
+int c=0;
+
+for(int i=0; i<10; i++){
+printf("%s", scritto)
+}
+
+while(q<10){
+printf("%s", scritto)
+}
+
+do{
+printf("%s", scritto)
+}
+while(c!=10)
+
+}
+
+}
+
