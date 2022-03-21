@@ -1,0 +1,50 @@
+#include <stdio.h>
+
+int main()
+{
+
+int giorno;
+printf("Scrivi numero: ");
+scnaf("%d", &giorno)
+	
+if(giorno==1)
+{
+printf("Lunedi'\n");
+}
+
+else if(giorno==2)
+{
+printf("Martedi'\n");
+}
+
+else if(giorno==3)
+{
+printf("Mercoledi'\n");
+}
+
+else if(giorno==4)
+{
+printf("Giovedi'\n");
+}
+
+else if(giorno==5)
+{
+printf("Venerdi'\n");
+}
+
+else if(giorno==6)
+{
+printf("Sabato\n");
+}
+
+else if(giorno==7)
+{
+printf("Domenica\n");
+}
+
+else
+{
+printf("giorno non valido\n");
+}
+
+}
