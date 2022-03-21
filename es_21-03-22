@@ -7,44 +7,17 @@ int giorno;
 printf("Scrivi numero: ");
 scnaf("%d", &giorno)
 	
-if(giorno==1)
+switch(giorno)
 {
-printf("Lunedi'\n");
-}
 
-else if(giorno==2)
-{
-printf("Martedi'\n");
-}
+case 1: printf("Lunedi'\n"); break;
+case 2: printf("Martedi'\n"); break;
+case 3: printf("Mercoledi'\n"); break;
+case 4: printf("Giovedi'\n"); break;
+case 5: printf("Venerdi'\n"); break;
+case 6: printf("Sabato\n"); break;
+case 7: printf("Domenica\n"); break;
+default: printf("giorno non valido"); break;
 
-else if(giorno==3)
-{
-printf("Mercoledi'\n");
 }
-
-else if(giorno==4)
-{
-printf("Giovedi'\n");
-}
-
-else if(giorno==5)
-{
-printf("Venerdi'\n");
-}
-
-else if(giorno==6)
-{
-printf("Sabato\n");
-}
-
-else if(giorno==7)
-{
-printf("Domenica\n");
-}
-
-else
-{
-printf("giorno non valido\n");
-}
-
 }
