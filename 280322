@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+
+int numero;
+scanf("%d",&numero);
+(numero>=0) ? printf("VotoPositivo") : printf("VotoNegativo");
+
+//L'operatore ternario è un ottimo strumento per snellire e semplificare il programma in c perché permette di raggruppare l'istruzione if-else>
+
+}
