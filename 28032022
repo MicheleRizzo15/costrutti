@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+
+int a=9;	//1001
+int b=3;	//0011
+
+printf("OR=%d\n",a|b);		//1011=11
+printf("AND=%d\n",a&b);		//0001=1
+printf("xOR=%d\n",a^b);		//1010=10
+
+}
+
